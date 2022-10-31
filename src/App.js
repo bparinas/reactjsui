@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  const value = 'Azure World';
+  const value = 'DevOps World';
   return <div>Hello {value}</div>;
 }
 
