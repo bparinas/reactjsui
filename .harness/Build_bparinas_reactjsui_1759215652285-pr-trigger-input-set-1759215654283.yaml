@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bparinas_reactjsui_1759215652285-pr-trigger-input-set
+  identifier: Build_bparinas_reactjsui_1759215652285prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bparinas_reactjsui_1759215652285
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
